@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Librairie</title>
+</head>
+<body>
+    <div class="yellow">
+        <header class="header">
+            <h1>Librairie</h1>
+        </header>
+        <img src="img/bibliotheque.jpg" class="image">
+    <section>
+        
+        <section class="recherche" >
+            <form  method="post" action="rechercherBook.php">
+                <label for="titre">recherche : </label>
+                <input type="text" id="titre" name="titre" required>
+                <input type="submit" value="serch">
+                </form>
+        </section>
+        <section class="section">
+            <h2>Ajouter livre</h2>
+            <form action="addBook.php" method="post">
+                <label for="titre">Titre : </label>
+                <input type="text" id="titre" name="titre" required><br><br>
+                <label for="auteur">Auteur : </label>
+                <input type="text" id="auteur" name="auteur" required><br><br>
+                <input type="submit" value="ajouter">
+            </form>
+        </section>
+        <section class="section">
+            <h2>Supprimer livre</h2>
+            <form action="supprimerBook.php" method="post">
+                <label for="titre">Titre : </label>
+                <input type="text" id="titre" name="titre" required><br><br>
+                <input type="submit" value="supprimer">
+            </form>
+        </section>
+    </section>
+    </div>
+</body>
+</html>

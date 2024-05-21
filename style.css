@@ -1,0 +1,28 @@
+.header
+{
+   text-align: center;
+   background-color: rgb(58, 154, 74);
+   padding: 20px;
+   margin: 15px;
+}
+.yellow
+{
+  background-color: rgb(240, 240, 96);
+  padding: 10px;
+}
+.image
+{
+  width: 600px;
+  height: 350px;
+  position: absolute;
+  left: 55%;
+ 
+}
+.recherche
+{
+  margin-bottom: 100px;
+}
+.section
+{
+  margin-bottom: 98px;
+}
